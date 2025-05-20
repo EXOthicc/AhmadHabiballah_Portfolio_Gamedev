@@ -89,7 +89,6 @@
 
     .profile-img {
       width: 25%;
-      padding-top: 20%;
       border-radius: 50%;
       object-fit: cover;
       background: var(--glass-bg);
@@ -117,12 +116,13 @@
       background: var(--glass-bg);
       border: 1px solid var(--glass-border);
       border-radius: 15px;
-      padding: 2rem;
       margin-bottom: 2rem;
       backdrop-filter: blur(15px);
-      width: 20%;
-      padding-top: 20%;
+      width: 50%;
    }
+.project-sub-container{
+    width: 45%;
+}
 
 .project-link {
   display: inline-block;
