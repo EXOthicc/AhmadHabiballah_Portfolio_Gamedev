@@ -1,84 +1,111 @@
-<head>
-  <title>Ahmad Habiballah Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmad Habiballah · Game Programmer</title>
+  <!-- Font & Icons (modern) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Pen</title>
+  </head>
+  <body>
+<div class="container">
+
+  <!-- HEADER -->
   <header>
-    <h1>Ahmad Habiballah - Game Programmer</h1>
-    <p>Crafting gameplay, systems, and worlds with code</p>
+    <h1>Ahmad Habiballah</h1>
+    <div class="subhead">Game Programmer</div>
+    <div class="tagline">Crafting gameplay, systems, and worlds with code</div>
   </header>
 
+  <!-- NAV -->
   <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
+    <a href="#about"><i class="fas fa-user-astronaut"></i> About</a>
+    <a href="#projects"><i class="fas fa-code"></i> Projects</a>
+    <a href="#skills"><i class="fas fa-cogs"></i> Skills</a>
+    <a href="#contact"><i class="fas fa-paper-plane"></i> Contact</a>
   </nav>
-  
-  <div class="pad"></div>
 
-  <section id="about" class="glass-box">
-    <h2>About Me</h2>
+  <!-- ABOUT -->
+  <section id="about" class="gfx-block">
+    <h2><i class="fas fa-user-astronaut"></i> About Me</h2>
     <div class="about-container">
-      <img src="profile.jpg" alt="Profile Photo" class="profile-img"/>
+      <img src="profile.jpg" alt="Profile Photo" class="profile-img" />
       <p class="about-content">I’ve been a gamer since childhood, just not a very good one. While others have a very good reflex, I always been the tactical one. I always wonder on how to bend the game's rule to gain any slight advantage. That mindset make me curious about what's going on behind the game's flashing screen. That curiousity pulled me into the world of programming. I studied, experimented, and dedicated myself to mastering the craft. And thus, here i am, creating a game between my spare time</p>
     </div>
   </section>
 
-  <section id="projects" class="glass-box">
-    <h2>Projects</h2>
+  <!-- PROJECTS -->
+  <section id="projects" class="gfx-block">
+    <h2><i class="fas fa-folder-open"></i> Projects</h2>
+
     <div class="project">
-      <h3>Thousand Door</h3>
+      <h3><i class="fas fa-dungeon"></i> Thousand Door</h3>
       <div class="project-container">
-        <img src="thousand-door.png" alt="Project Image" class="project-img"/>
+        <img src="thousand-door.png" alt="Thousand Door" class="project-img" />
         <div class="project-sub-container">
           <p>A dungoen delve game made for Brackey's Game Jam 2024. My attempt at procedural level generation. Built in Unity with C#.</p>
-          <a href="https://exo-thicc.itch.io/thousand-door" target="_blank" class="project-link">Play Now</a>
+          <a href="https://exo-thicc.itch.io/thousand-door" target="_blank" class="project-link"><i class="fas fa-play"></i> Play Now</a>
         </div>
       </div>
     </div>
+
     <div class="project">
-      <h3>Labirin Matematika</h3>
+      <h3><i class="fas fa-calculator"></i> Labirin Matematika</h3>
       <div class="project-container">
-        <img src="labirin-matematika.png" alt="Project Image" class="project-img"/>
+        <img src="labirin-matematika.png" alt="Labirin Matematika" class="project-img" />
         <div class="project-sub-container">
           <p>A 3D mobile math puzzle game where the player must find his way through a confusing labyrinth. To proceed to the next level, player must answer the question at the door by throwing a number that was hidden in that level. Made this game for an intership project on a special need school.</p>
-          <a href="https://drive.google.com/file/d/1W8tfPaAjy9yH-otgGVZWSiPil7VdP31S/view?usp=sharing" target="_blank" class="project-link">Download Now</a>
+          <a href="https://drive.google.com/file/d/1W8tfPaAjy9yH-otgGVZWSiPil7VdP31S/view?usp=sharing" target="_blank" class="project-link"><i class="fas fa-download"></i> Download Now</a>
         </div>
       </div>
     </div>
+
     <div class="project">
-      <h3>Online Shooter</h3>
+      <h3><i class="fas fa-crosshairs"></i> Online Shooter</h3>
       <div class="project-container">
-        <img src="online-shooter.png" alt="Project Image" class="project-img"/>
+        <img src="online-shooter.png" alt="Online Shooter" class="project-img" />
         <div class="project-sub-container">
           <p>My attempt at making an online shooter. Made this project for a unity class on my university. Learned a lot about networking, 3d modelling, and animation. Never managed to finish the game</p>
-          <a href="https://drive.google.com/file/d/14vdikAsQX0BcKNOZP4-jQwMAji27HvYT/view?usp=sharing" target="_blank" class="project-link">Download Now</a>
+          <a href="https://drive.google.com/file/d/14vdikAsQX0BcKNOZP4-jQwMAji27HvYT/view?usp=sharing" target="_blank" class="project-link"><i class="fas fa-download"></i> Download Now</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="skills" class="glass-box">
-    <h2>Skills</h2>
+  <!-- SKILLS -->
+  <section id="skills" class="gfx-block">
+    <h2><i class="fas fa-cogs"></i> Skills</h2>
     <ul>
-      <li>Languages: C#, C++, Python</li>
-      <li>Engines: Unity</li>
-      <li>Gameplay Programming, UI, Level Generation</li>
-      <li>Tools: Git, VSCode, Blender (basic)</li>
+      <li><i class="fas fa-code"></i> Languages: C#, C++, Python</li>
+      <li><i class="fas fa-cube"></i> Engines: Unity</li>
+      <li><i class="fas fa-gamepad"></i> Gameplay Programming, UI, Level Generation</li>
+      <li><i class="fas fa-tools"></i> Tools: Git, VSCode, Blender (basic)</li>
     </ul>
   </section>
 
-  <section id="contact" class="glass-box">
-    <h2>Contact</h2>
-    <p>Email: ahmd.habiballah@gmail.com</p>
-    <p><a href="https://github.com/EXOthicc" style="color: var(--neon);">GitHub</a> | <a href="https://www.linkedin.com/in/ahmad-habiballah-897057266" style="color: var(--neon);">LinkedIn</a> | <a href="https://exo-thicc.itch.io/" style="color: var(--neon);">Itch.io</a></p>
+  <!-- CONTACT -->
+  <section id="contact" class="gfx-block">
+    <h2><i class="fas fa-paper-plane"></i> Contact</h2>
+    <p><i class="fas fa-envelope"></i> ahmd.habiballah@gmail.com</p>
+    <div class="contact-links">
+      <a href="https://github.com/EXOthicc" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/ahmad-habiballah-897057266" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+      <a href="https://exo-thicc.itch.io/" target="_blank"><i class="fab fa-itch-io"></i> Itch.io</a>
+    </div>
   </section>
-  
-  <div class="pad"></div>
 
+  <!-- FOOTER -->
   <footer>
-    &copy; 2025 Ahmad Habiballah. All rights reserved.
+    &copy; 2026 Ahmad Habiballah. All rights reserved. <span>✦</span>
   </footer>
+
+</div>
 </body>
 </html>
